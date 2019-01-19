@@ -5,12 +5,15 @@
         "module": "commonjs",
         "target": "es5",
         "jsx": "react",
+        "declaration": true,
+        "outDir": "../dist/origin",
+        "declarationDir": "../dist/@types"
     },
     "include": [
-        "./src/**/*"
+        "../src/**/*"
     ],
     "exclude": [
-        "node_modules",
-        "**/*.spec.ts"
+        "../node_modules",
+        "../**/*.spec.ts"
     ]
 }
